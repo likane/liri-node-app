@@ -57,12 +57,16 @@ function pullMovie() {
 }
 
 function pullIt() {
+
+	var random = require("./random.txt");
+
+	console.log(random);
  	
- 	fs.readFile("./random.txt", (error, data) {
- 		if (err) throw err;
- 		console.log(data);
- 	
- 	});
+ 	//fs.readFile("./random.txt", (error, data) {
+ 		//if (err) throw err;
+ 		//console.log(data);
+
+ 	//});
 }
 
 
